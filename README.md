@@ -32,12 +32,12 @@ to it if you have an existing one.
 ```js
 {
     "require": {
-        "phpJobDaemon/phpJobDaemon": "dev-master"
+        "php-job-daemon/php-job-daemon": "dev-master"
     }
 }
 ```
 
-Install via composer by runnign this in your project root:
+Install via composer by running this in your project root:
 
 ```sh
 $ composer install

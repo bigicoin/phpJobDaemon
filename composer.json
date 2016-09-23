@@ -1,0 +1,21 @@
+{
+    "name": "php-job-daemon/php-job-daemon",
+    "description": "A super lightweight PHP library to create a job daemon (e.g. consumer scripts) off of that is robust, free of memory leaks, and can run forever.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bigi Lui",
+            "email": "newbigi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "JobDaemon": "src/"
+        }
+    }
+}
